@@ -18,4 +18,5 @@
 <%= password_input f, :password, placeholder: "Password", class: "form-control" %>
 <%= error_tag f, :password %>
 </div>
+  <%= submit "Create User", class: "btn btn-primary" %>
 <% end %>
